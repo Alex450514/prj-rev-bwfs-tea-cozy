@@ -1,0 +1,178 @@
+/* Body */
+
+body {
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+}
+
+
+a {
+  color: seashell;
+}
+
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+
+.main-content {
+  padding-top: 70px;
+  margin: auto;
+  opacity: 0.9;
+  width: 1200px;
+}
+
+/* Header logo+links */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid white;
+  background-color: black;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+
+.logo img {
+  width: auto;
+  height: 50px;
+}
+
+
+header nav {
+  padding-right: 10px;
+}
+
+/* Large top backgroud image + content */
+
+#mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+}
+
+
+.mission {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+#mission .text {
+  margin: auto;
+  width: 100%;
+  background-color: black;
+}
+
+
+.text h2 {
+  margin-top: 10px;
+}
+
+
+.text h4 {
+  margin-bottom: 10px;
+}
+
+/* Medium images + content */
+
+#products {
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+
+.products h4 {
+  margin-top: 0;
+}
+
+
+.image img {
+  display: block;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+
+.medium-images {
+  height: 700px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Large bottom backgroud image + content */
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  padding-top: 70px;
+  height: 500px;
+  width: 1200px;
+}
+
+#locations .locations-boxes {
+  margin: auto;
+  width: 1100px;
+}
+
+
+.locations h2 {
+  margin-bottom: 10px;
+}
+
+
+.locations-boxes {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  padding-top: 5px;
+}
+
+
+.location-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  background-color: black;
+  margin: 5px 20px;
+  opacity: 1.0;
+  width: 300px;
+  height: 250px;
+}
+
+/* Contact */
+
+#contact {
+  height: 200px;
+}
+
+/* Footer */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
